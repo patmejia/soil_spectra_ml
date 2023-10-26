@@ -1,8 +1,14 @@
 # soil spectra ml
-### predictive clay mineral in soil spectroscopy
----
-
+###  *predictive clay mineral in soil spectroscopy*
 soilspectraml is an open-source initiative aimed at developing machine learning models for predictive soil spectroscopy, with a focus on accurate clay content prediction from mid-infrared (mir) soil spectra.
+
+## overview
+find a quick overview of the project [here](https://github.com/patmejia/soil_data_research#soil-research).
+
+![Clay and Other Soil Minerals Size-Based Classification](ss4gg_hackaton/docs/img/clay_vs_other_soil_minerals.png)
+*this image illustrates the size-based classification of soil minerals, highlighting the distinctive attributes of clay in terms of texture, water retention, and nutrient interaction.*
+
+
 
 ## features
 
@@ -14,24 +20,14 @@ soilspectraml is an open-source initiative aimed at developing machine learning 
 ## getting started
 
 1. **prerequisites**:
-    - python 3.7+
-    - relevant libraries and dependencies are listed in `requirements.txt`.
-    
 2. **installation**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 3. **dataset**:
-    - place your dataset in the `data/raw` directory following the cookiecutter data science directory structure.
-
 4. **training models**:
-    ```bash
-    python src/models/train_model.py
-    ```
-
 5. **model evaluation**:
-    - evaluation metrics and model performance can be viewed in the generated reports in the `reports` directory.
+
+## usage
+
+## documentation
 
 ## contribution
 
@@ -43,10 +39,11 @@ this project is licensed under the mit license. see the `license.md` file for de
 
 ## contact
 
-- repository: https://github.com/your-username/soilspectraml
-- issue tracker: https://github.com/your-username/soilspectraml/issues
+- repository: https://github.com/patmejia/soil_spectra_ml
+- issue tracker: https://github.com/patmejia/soil_spectra_ml/issues
 
 ## acknowledgements
 
-- [ss4gg hackathon](https://www.kaggle.com/competitions/ss4gg-hackathon-mir-soil-spectroscopy/overview) for the inspiration and initial dataset
+- **ss4gg hackathon: mir soil spectroscopy modeling** by zecojls, kaggle, 2023. [link](https://kaggle.com/competitions/ss4gg-hackathon-mir-soil-spectroscopy)
+
 - [cookiecutter data science](https://drivendata.github.io/cookiecutter-data-science/#:~:text=%23%20%E3%80%903%E2%80%A0home%20,is%20about%20correctness%20and%20reproducibility) for the project structure guidelines
