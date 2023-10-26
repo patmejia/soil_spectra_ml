@@ -1,55 +1,49 @@
-# soil_spectra_ml
-ML-driven network for precise clay content prediction from MIR soil spectra
+# soil spectra ml
+###  *predictive clay mineral in soil spectroscopy*
+soilspectraml is an open-source initiative aimed at developing machine learning models for predictive soil spectroscopy, with a focus on accurate clay content prediction from mid-infrared (mir) soil spectra.
+
+## overview
+find a quick overview of the project [here](https://github.com/patmejia/soil_data_research#soil-research).
+
+![Clay and Other Soil Minerals Size-Based Classification](ss4gg_hackaton/docs/img/clay_vs_other_soil_minerals.png)
+*this image illustrates the size-based classification of soil minerals, highlighting the distinctive attributes of clay in terms of texture, water retention, and nutrient interaction.*
 
 
 
-# SoilSpectraML: Predictive Soil Spectroscopy Models
+## features
 
-SoilSpectraML is an open-source initiative aimed at developing machine learning models for predictive soil spectroscopy, with a focus on accurate clay content prediction from Mid-Infrared (MIR) soil spectra.
+- **clay content prediction**: utilizes mir soil spectroscopy for precise clay content estimation.
+- **interoperable models**: ensures model consistency and accuracy across diverse mir instruments.
+- **open soil spectral library (ossl) utilization**: leverages the ossl for robust model training and evaluation.
+- **machine learning framework**: incorporates a modular ml framework allowing easy model iteration and evaluation.
 
-## Features
+## getting started
 
-- **Clay Content Prediction**: Utilizes MIR soil spectroscopy for precise clay content estimation.
-- **Interoperable Models**: Ensures model consistency and accuracy across diverse MIR instruments.
-- **Open Soil Spectral Library (OSSL) Utilization**: Leverages the OSSL for robust model training and evaluation.
-- **Machine Learning Framework**: Incorporates a modular ML framework allowing easy model iteration and evaluation.
+1. **prerequisites**:
+2. **installation**:
+3. **dataset**:
+4. **training models**:
+5. **model evaluation**:
 
-## Getting Started
+## usage
 
-1. **Prerequisites**:
-    - Python 3.7+
-    - Relevant libraries and dependencies are listed in `requirements.txt`.
-    
-2. **Installation**:
-    ```bash
-    pip install -r requirements.txt
-    ```
+## documentation
 
-3. **Dataset**:
-    - Place your dataset in the `data/raw` directory following the Cookiecutter Data Science directory structure.
+## contribution
 
-4. **Training Models**:
-    ```bash
-    python src/models/train_model.py
-    ```
+we welcome contributions, bug reports, and feature requests. please refer to the `contributing.md` file for guidelines.
 
-5. **Model Evaluation**:
-    - Evaluation metrics and model performance can be viewed in the generated reports in the `reports` directory.
+## license
 
-## Contribution
+this project is licensed under the mit license. see the `license.md` file for details.
 
-We welcome contributions, bug reports, and feature requests. Please refer to the `CONTRIBUTING.md` file for guidelines.
+## contact
 
-## License
+- repository: https://github.com/patmejia/soil_spectra_ml
+- issue tracker: https://github.com/patmejia/soil_spectra_ml/issues
 
-This project is licensed under the MIT License. See the `LICENSE.md` file for details.
+## acknowledgements
 
-## Contact
+- **ss4gg hackathon: mir soil spectroscopy modeling** by zecojls, kaggle, 2023. [link](https://kaggle.com/competitions/ss4gg-hackathon-mir-soil-spectroscopy)
 
-- Repository: https://github.com/your-username/SoilSpectraML
-- Issue Tracker: https://github.com/your-username/SoilSpectraML/issues
-
-## Acknowledgements
-
-- SS4GG Hackathon for the inspiration and initial dataset: https://www.kaggle.com/competitions/ss4gg-hackathon-mir-soil-spectroscopy/overview
-- Cookiecutter Data Science for the project structure guidelines: https://drivendata.github.io/cookiecutter-data-science/#:~:text=%23%20%E3%80%903%E2%80%A0Home%20,is%20about%20correctness%20and%20reproducibility
+- [cookiecutter data science](https://drivendata.github.io/cookiecutter-data-science/#:~:text=%23%20%E3%80%903%E2%80%A0home%20,is%20about%20correctness%20and%20reproducibility) for the project structure guidelines
