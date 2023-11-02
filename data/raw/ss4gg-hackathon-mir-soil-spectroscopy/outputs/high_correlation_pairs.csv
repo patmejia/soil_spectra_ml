@@ -1,0 +1,7 @@
+Variable 1,Variable 2,Correlation
+clay_perc,sand_perc,0.9999839371297738
+clay_perc,silt_perc,0.9999704722640879
+sand_perc,clay_perc,0.9999839371297738
+sand_perc,silt_perc,0.9999693931090471
+silt_perc,clay_perc,0.9999704722640879
+silt_perc,sand_perc,0.9999693931090471
