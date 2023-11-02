@@ -15,7 +15,7 @@
 3. **Install Required Packages**: As the script uses Pandas and pathlib, let's install them.
 
     ```bash
-    pip install pandas matplotlib seaborn
+    pip install pandas matplotlib seaborn scikit-learn
     ```
 
     Note: `pathlib` is part of Python’s standard utility modules, so you don't need to install it separately.
@@ -27,3 +27,13 @@
     ```bash
     python src/data_exploration.py --directory .
     ```
+
+## Usage
+
+```bash
+python src/data_exploration.py --directory ./
+```
+
+```bash
+python src/data_analysis.py --data_dir data/raw/ss4gg-hackathon-mir-soil-spectroscopy
+```
